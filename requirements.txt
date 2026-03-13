@@ -1,0 +1,26 @@
+# Deep Learning Framework (CUDA 12.4)
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0+cu124              # PyTorch - ana deep learning kütüphanesi
+torchvision==0.21.0+cu124       # Görüntü işleme ve pretrained modeller (EfficientNet)
+
+# El Landmark Tespiti
+mediapipe==0.10.32              # Google MediaPipe - el iskelet noktaları çıkarma
+
+# Görüntü İşleme
+opencv-python==4.13.0.92        # OpenCV - kamera, video ve görüntü işleme
+
+# Veri İşleme ve Analiz
+numpy==2.4.3                    # Sayısal hesaplamalar ve array işlemleri
+pandas                          # Veri analizi ve CSV işlemleri
+
+# Görselleştirme
+matplotlib                      # Grafik ve görselleştirme (loss, accuracy grafikleri)
+seaborn                         # İstatistiksel görselleştirme (confusion matrix)
+
+# Jupyter Notebook
+jupyter                         # Notebook ortamı - deney ve analiz için
+
+# Yardımcı
+tqdm                            # İlerleme çubuğu - eğitim döngülerinde
+scikit-learn                    # ML metrikleri (F1, confusion matrix, train/test split)
+Pillow                          # Görüntü yükleme ve işleme

@@ -1,0 +1,39 @@
+# Veri setleri (boyutu büyük, repo'ya eklenmemeli)
+data/
+
+# Eğitilmiş modeller (boyutu büyük)
+models/*.pt
+models/*.pth
+models/*.h5
+models/*.tflite
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Sanal ortam
+venv/
+env/
+.venv/
+
+# IDE ayarları
+.vscode/
+.idea/
+*.swp
+
+# OS dosyaları
+.DS_Store
+Thumbs.db
+
+# Log dosyaları
+*.log
+logs/
+
+# Geçici dosyalar
+*.tmp
+*.temp
